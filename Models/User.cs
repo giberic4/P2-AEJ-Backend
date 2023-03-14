@@ -11,18 +11,23 @@ public class User
     private int _wallet;
     
     public List<Item> listOfItems = new List<Item>();
+
+    public User(){
+        
+    }
     public User(int id, string? firstname, string? lastname, string? username, string? password, int wallet)
     {
-        _id=id;
-        _firstName=firsrname;
-        _lastName=_lastName;
-        _username=username;
-        _password=password;
-        _wallet=wallet;
+        _id = id;
+        _firstName = firstname;
+        _lastName = lastname;
+        _username = username;
+        _password = password;
+        _wallet = wallet;
     }
+
     public int Id {
         set {
-            _id=value;
+            _id = value;
         }
         get {
             return _id;
@@ -30,7 +35,7 @@ public class User
     }
     public string? FirstName {
         set {
-            _firstName=value;
+            _firstName = value;
         }
         get {
             return _firstName;
@@ -38,7 +43,7 @@ public class User
     }
     public string? LastName {
         set {
-            _lastName=value;
+            _lastName = value;
         }
         get {
             return _lastName;
@@ -46,7 +51,7 @@ public class User
     }
     public string? Username {
         set {
-            _username=value;
+            _username = value;
         }
         get {
             return _username;
@@ -54,7 +59,7 @@ public class User
     }
     public string? Password {
         set {
-            _password=value;
+            _password = value;
         }
         get {
             return _password;
@@ -62,7 +67,7 @@ public class User
     }
     public int Wallet {
         set {
-            _wallet=value;
+            _wallet = value;
         }
         get {
             return _wallet;
@@ -76,7 +81,3 @@ public class User
         return sb.ToString();
     }
 }
-
-
-
-

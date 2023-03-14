@@ -7,12 +7,12 @@ public class Item
     private string? _name;
     public Item(int id, string? name)
     {
-        _id=id;
-        _name=name;        
+        _id = id;
+        _name = name;        
     }
     public int Id {
         set {
-            _id=value;
+            _id = value;
         }
         get {
             return _id;
@@ -20,7 +20,7 @@ public class Item
     }
     public string? Name {
         set {
-            _name=value;
+            _name = value;
         }
         get {
             return _name;

@@ -5,7 +5,7 @@ P2-
 Project 2 - Artur, Eric, John R.
 
 ## Project Overview
-We are working together to create a Animal Crossing E-commerce site with some of the game concepts implemented.
+Animal crossing is a game about cute animated animals living together in a cozy town or island. It is known for housing customization. Unlocking furniture, crafting furniture, and showing off your creativity. With hundreds of items and many variations of those items available in game, it gives us a basis for our own e-commerce oasis. Each user will be able to create their own account, search through the animal crossing item library, and trade those items. When a user creates their account, they will be given a starting balance that they can spend on an item from the marksetplace or a random item from a grab bag. We are treating the platform as an open market where sellers and buyers control the price of an item. We hope to include some mini-games that reflect aspects of Animal Crossing.
 
 ## MVP goals
 - As a user, I should be able to login 
@@ -64,13 +64,3 @@ We are working together to create a Animal Crossing E-commerce site with some of
 ### Who's managing the kanban board?: 
 - Artur
 
-
-
-what's your coding convention going to be?
-how are we commenting our code
-what are we going to return when we're dealing with input validation?
-400?
-401?
-how are we going to name our end points
-how is the workflow of the app going to look like
-wireframe
